@@ -1,0 +1,125 @@
+.firstcontainer{
+    /* margin: 16%;
+    padding: 1%;
+    padding-bottom: 5%; */
+    text-align: center;
+    background-color: black;
+}
+.secondcontainer{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.searchbutton{
+    align-items: end;
+    align-self: flex-end;
+    align-content: end;
+}
+
+.cardDiv1{
+    padding-top: 20%;
+    background-color: black;
+    
+}
+
+.scrollspyHeading2{
+    background-color: black;
+}
+
+.scrollspyHeading3{
+    background-color: black;
+}
+.cardDiv2{
+    padding-top: 15%;
+    background-color: black;
+}
+.cardDiv3{
+    background-color: black;
+    padding-top: 5%;
+}
+
+.cardDiv4{
+    background-color: black;
+    padding-top: 5%;
+}
+.card1{
+margin: 10%;
+}
+
+.card2{
+    margin: 10%;
+    }
+    .card3{
+        margin: 10%;
+        }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .navbar {
+        padding: 10px; /* Reduce padding for small screens */
+    }
+
+    .navbar-brand {
+        font-size: 20px; /* Reduce font size for small screens */
+    }
+
+    .nav-link {
+        font-size: 14px; /* Reduce font size for small screens */
+    }
+
+    .card {
+        max-width: 100%; /* Make cards full width for small screens */
+    }
+
+    .slider-container {
+        margin-top: 50px; /* Reduce margin for small screens */
+    }
+
+    .slider {
+        max-width: 250px; /* Reduce max-width for small screens */
+    }
+
+    button {
+        font-size: 14px; /* Reduce font size for small screens */
+    }
+}
+
+

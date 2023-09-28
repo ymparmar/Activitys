@@ -1,0 +1,139 @@
+.nav-link{
+    color: black;
+}
+
+
+
+.offcanva {
+    position: fixed;
+    top: 0;
+     left: -250px; /*Initially hidden off the screen */
+    width: 250px;
+    height: 100%;
+    background-color: #f8f9fa;
+    transition: left 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .navbar-nav {
+      width: 100%;
+    }
+  }
+
+  
+  body {
+    font-size: .875rem;
+  }
+  
+ 
+
+  .dashbutton{
+    height: 35px;
+    margin-left:10px ;
+  }
+  .dashbutton1{
+    height: 35px;
+
+  }
+  .sidebar {
+    position: fixed;
+    z-index: 10; 
+    padding: 48px 0 0; 
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    padding-top: .5rem;
+  }
+  
+
+  .navbar-nav{
+   height: 51.2px;
+   padding-top: 6px;
+  }
+  .sidebar .nav-link {
+    font-weight: 450;
+    color: rgb(42, 42, 42);
+  }
+  
+  
+  .sidebar .nav-link.active {
+    color: #0173ec;
+  }
+
+  
+  .sidebar-heading {
+    font-size: .70rem;
+    text-transform: uppercase;
+  }
+
+  .offcanvas{
+    margin-top:3.2rem;
+    width: 100%;
+    background-color: aliceblue;
+    
+  }
+  .offcanvas a.nav-link {
+    color: black;
+  }
+  .offcanvas a.nav-link.active,
+    .offcanvas a.nav-link:active,
+    .offcanvas a.nav-link:focus {
+      color: blue !important;
+    }
+  
+  .navbar-brand {
+    padding-top: .70rem;
+    padding-bottom: .70rem;
+    padding-left: .70rem;
+    margin-right: 0%;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, .25);
+    
+  }
+  
+  
+  
+  .search {
+    padding-left: 15px;
+    height: 51.2px;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255,.1 );
+  }
+   
+
+
+
+  [role="main"] {
+    padding-top: 150px; 
+  }
+  
+  @media (min-width: 770px) {
+    [role="main"] {
+      padding-top: 50px; 
+    }
+  }
+
+
+.container-1{
+    background-color: black;
+    color: white;
+    padding: 0%; 
+   } 
+
+   .container-1 p {
+    color: #f8f9fa;
+   }
+
+   .nav-navbar bg-light nav-1{
+    position: fixed;
+   }
+
+
+
+   
+
+  
